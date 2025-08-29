@@ -1,5 +1,3 @@
-cd "D:/Projects/project2/Netflix clone" && \
-cat > README.md << 'EOF'
 # 🎬 Netflix Clone  
 
 A fully responsive **Netflix Clone** built with modern web technologies to replicate the look and feel of Netflix.  
