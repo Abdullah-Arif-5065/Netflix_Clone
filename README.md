@@ -8,7 +8,7 @@ This project showcases **UI/UX design, API integration, and front-end developmen
 ---
 
 ## 📸 Preview  
-![Netflix Clone Preview](preview.gif)
+![Netflix Clone Preview](preview.png)
 
 ---
 
@@ -44,22 +44,6 @@ Netflix clone/
 
 ---
 
-## 📦 Installation & Setup
-\`\`\`bash
-# Clone the repository
-git clone https://github.com/your-username/netflix-clone.git
-
-# Navigate to project folder
-cd netflix-clone
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-\`\`\`
-
----
 
 ## 📌 How to Run
 1. Clone or download this repo  
