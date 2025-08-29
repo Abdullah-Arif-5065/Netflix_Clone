@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(21, 18, 18);
+}
+
+.main{
+    background-image: url("assets/images/netflix-background-image.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-size: max(100px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;  
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.38;
+    position:absolute;
+    top: 0;
+    background-color: black;
+
+}
+
+nav{
+    color: hsl(295, 100%, 48%);
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 55px;
+
+}
+
+nav img{
+    color: rgb(164, 34, 229);
+    width: 56%;
+    position: relative;
+    z-index: 15;
+}
+
+nav button{
+    position: relative;
+    z-index: 15;
+}
+
+.hero{
+    color: rgb(243, 233, 220);
+    height: calc(100% - 60px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 0 20px;
+}
+
+.hero> :first-child{
+    font-size: 39px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero> :nth-child(3){
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    
+}
+
+.separation{
+    height: 6px;
+    background-color: hsl(295, 77%, 56%,0.6);
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50% ;
+    border-bottom-right-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border: collapse 7%;;
+    bord
+
+    
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgb(23,23,23,0.2);
+    border-radius: 4.3px;
+    cursor: pointer;
+}
+
+.btn-red{
+    background-color: hsl(295, 77%, 56%);
+    color: rgb(48, 45, 45);
+    padding: 3px 24px;
+    font-size: 22px;
+    border-radius: 4.3px;
+    cursor: pointer;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    cursor: pointer;
+}
+
+.main input{
+    padding: 9px 35px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4.3px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.btn-red-sm{
+    background-color: hsl(295, 77%, 56%);
+    color: rgb(48, 45, 45);
+    padding: 3px 8px;
+    font-weight: bold;
+    border-radius: 4.3px;
+    cursor: pointer;
+}
+
+.first{
+    margin: 6%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content:right;
+    /* max-width: 15px; */
+    height: 250px;
+    z-index: 10;
+    /* margin:6%; */
+    box-shadow: 3px, 3px ,3px ;
+    /* background-color: brown; */
+}
+
+.secimg{
+    position: relative;
+    display: flex;
+    justify-content:right;
+    /* max-width: 15px; */
+    height: 240px;
+    width: 200px;
+    z-index: 10;
+    /* margin:6%; */
+    box-shadow: 3px, 3px ,3px ;
+    
+    
+}
+
+.secimg video{
+    position: absolute;
+      /* /* height: 600px; */
+      /* width: 367px; */
+      height: 235px;
+}
+
+.tx{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items:center;
+    /* padding-top: 130px; */
+    /* margin: 15%; */
+    color: rgb(243, 233, 220);
+    font-size: 27px;
+}
+
+.b{
+        color: rgb(243, 233, 220);
+        display: flex;
+        position: relative;
+            align-items:center;
+            font-size: 45px;
+            font-weight: bolder;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.imge{
+    display: flex;
+    position: relative;
+    justify-content:left;
+    padding-left: 20%;
+    padding-bottom: 7%;
+    align-items: center;
+    height: 240px;
+    width: 200px;
+}
+
+.imge video{
+    height: 320px;
+    /* width: 200px;    */
+    position: absolute;
+    
+}
+
+.txx{
+    display: flex;
+    justify-content: right;
+    color: rgb(243, 233, 220);
+    align-items: center;
+}
