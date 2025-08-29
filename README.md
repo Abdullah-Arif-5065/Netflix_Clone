@@ -51,10 +51,6 @@ Netflix clone/
 
 ---
 
-## 🌟 Screenshots
-(Add your screenshots here)
-
----
 
 ## 🤝 Contribution
 Contributions are welcome! Feel free to fork this repo, submit issues, or create pull requests.  
